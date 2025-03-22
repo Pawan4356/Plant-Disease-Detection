@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Health Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .nav {
+        background-color: #a7bc8a;
+        height: max(100px, 15vh);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        position: fixed;
+        z-index: 100;
+      }
+
+      body {
+        background-color: #dadddd;
+      }
+
+      section {
+        margin-top: max(100px, 15vh);
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+      }
+
+      .img {
+        width: max(800px, 45vw);
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: 5vw 10vw;
+        z-index: -1;
+      }
+
+      .img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .content {
+        padding-left: max(50px, 8vw);
+        width: 45vw;
+        height: auto;
+        position: absolute;
+        background-color: white;
+        top: 25vh;
+        margin: 0 40vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+      }
+
+      .tag {
+        padding: 25px 40px 30px 0;
+        font-size: 2rem;
+      }
+
+      .desc {
+        padding: 0 40px 30px 0;
+      }
+
+      .upload {
+        text-decoration: none;
+        font-size: medium;
+        background-color: #fff;
+        font-weight: 700;
+        padding: 10px 40px;
+        border-radius: 7px;
+        border: 2px solid black;
+      }
+
+      .upload:hover {
+        background-color: #dadddd;
+        cursor: pointer;
+      }
+
+      .about {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: #a7bc8a;
+        position: fixed;
+        bottom: 5vh;
+        left: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+
+      .show {
+        text-decoration: none;
+        font-size: medium;
+        background-color: gray; /* Gray background */
+        color: white; /* White text */
+        font-weight: 700;
+        padding: 10px 40px;
+        border-radius: 7px;
+        border: 2px solid black;
+        cursor: pointer;
+      }
+
+      .show:hover {
+        background-color: darkgray; /* Slightly darker gray on hover */
+      }
+
+      @media only screen and (max-width: 800px) {
+        .nav {
+          font-size: 1rem;
+          height: max(10vh, 40px);
+        }
+
+        section {
+          height: auto;
+          margin-top: 10vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: absolute;
+        }
+
+        .img {
+          margin: 0;
+          width: 100vw;
+          height: auto;
+          position: relative;
+        }
+
+        .content {
+          width: 100%;
+          height: auto;
+          position: relative;
+          background-color: white;
+          top: 0;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .tag {
+          font-size: 1.5rem;
+          padding: 20px;
+        }
+
+        .desc {
+          padding: 20px;
+        }
+
+        .button {
+          display: flex;
+          width: auto;
+          flex-wrap: wrap;
+          padding: 10px;
+          gap: 5vw;
+          text-align: center;
+        }
+
+        .upload {
+          text-align: center;
+          max-width: 45%;
+        }
+
+        .result {
+          margin: 0 auto;
+          margin-bottom: 10vh;
+        }
+
+        .about {
+          bottom: 1.5vh;
+          left: 1vh;
+        }
+
+        .show {
+          margin-top: 2vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <h1><a href="/">BudBloom</a></h1>
+    </div>
+    <div class="about">
+      <a href="/about"
+        ><i class="bx bx-info-circle" style="font-size: 32px"></i
+      ></a>
+    </div>
+    <section>
+      <div class="img">
+        <img
+          src="{{ url_for('static', filename='images/farm.jpg') }}"
+          alt="Oopsies!!!"
+        />
+      </div>
+      <div class="content">
+        <div class="tag"><h1>AI Boosted Disease Detection</h1></div>
+        <div class="desc">
+          The Diagnostics of your plants is just a click away, with just one
+          photo get the results instantly...
+        </div>
+
+        <div class="button">
+          <form id="uploadForm" enctype="multipart/form-data">
+            <label for="imageUpload" class="upload" id="uploadBtn"
+              >Upload</label
+            >
+            <input
+              type="file"
+              id="imageUpload"
+              name="image"
+              accept="image/*"
+              hidden
+            />
+            <button class="upload" type="button" onclick="uploadImage()">
+              Predict
+            </button>
+            <button class="show" type="button" onclick="ShowSolution()">
+              Show Solution
+            </button>
+          </form>
+        </div>
+        <br />
+        <p id="result" class="result"></p>
+      </div>
+    </section>
+  </body>
+  <script>
+    document
+      .getElementById("imageUpload")
+      .addEventListener("change", function () {
+        let uploadBtn = document.getElementById("uploadBtn");
+        if (this.files.length > 0) {
+          uploadBtn.style.backgroundColor = "red"; // Change background color
+          uploadBtn.style.color = "white"; // Change text color
+        } else {
+          uploadBtn.style.backgroundColor = ""; // Reset to default
+          uploadBtn.style.color = "";
+        }
+      });
+
+    function uploadImage() {
+      let imageInput = document.getElementById("imageUpload");
+      let image = imageInput.files[0];
+
+      if (!image) {
+        alert("Please select an image first!");
+        return;
+      }
+
+      // Validate file type
+      if (!image.type.startsWith("image/")) {
+        alert("Please upload a valid image file (JPEG, PNG, etc.).");
+        return;
+      }
+
+      // Validate file size (e.g., 5MB limit)
+      if (image.size > 5 * 1024 * 1024) {
+        alert("File size must be less than 5MB.");
+        return;
+      }
+
+      let formData = new FormData();
+      formData.append("image", image);
+
+      fetch("/predict", {
+        method: "POST",
+        body: formData,
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Server error: " + response.status);
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log("Response data:", data);
+          document.getElementById("result").innerText =
+            "Prediction: " + data.prediction;
+
+          let showSolutionButton = document.querySelector("button.show");
+          if (showSolutionButton) {
+            showSolutionButton.style.backgroundColor = "green";
+          } else {
+            console.error("Show Solution button not found.");
+          }
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          document.getElementById("result").innerText =
+            "Error in classification.";
+        });
+    }
+
+    function ShowSolution() {
+      let resultText = document.getElementById("result").innerText;
+      let diseaseInfo = resultText.split(": ")[1]; // Extract predicted disease name
+
+      if (!diseaseInfo) {
+        alert("Please predict a disease first!");
+        return;
+      }
+
+      // Split into plant and disease (assuming format is "Plant Disease")
+      let [plant, ...diseaseParts] = diseaseInfo.split(" ");
+      let disease = diseaseParts.join(" ");
+
+      // Redirect to solution.html with query parameters
+      window.location.href = `/solution?plant=${encodeURIComponent(
+        plant
+      )}&disease=${encodeURIComponent(disease)}`;
+    }
+  </script>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Plant Disease Detection System</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background: #dadddd;
+        color: #333;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .nav {
+        background-color: #a7bc8a;
+        height: max(100px, 15vh);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+      }
+
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        margin-top: max(125px, 18vh);
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        margin-top: 5px;
+        padding: 5px;
+        background-color: #a7bc8a;
+        color: #fff;
+        border-radius: 5px;
+      }
+      h2,
+      h3 {
+        padding: 5px 10px;
+        background-color: #a7bc8a;
+        color: #fff;
+        border-radius: 5px;
+      }
+      h1 {
+        text-align: center;
+      }
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+      .features,
+      .why-use {
+        margin-top: 20px;
+      }
+      .features ul,
+      .why-use ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .features li,
+      .why-use li {
+        margin-bottom: 10px;
+      }
+      .features li::before,
+      .why-use li::before {
+        margin-right: 10px;
+        color: #4caf50;
+      }
+
+      .home {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: #a7bc8a;
+        position: fixed;
+        bottom: 5vh;
+        left: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+
+      @media only screen and (max-width: 760px) {
+        .nav {
+          font-size: 1rem;
+          height: max(12vh, 65px);
+        }
+        .container {
+          margin-top: max(90px, 15vh);
+        }
+        h1 {
+          font-size: 700;
+        }
+        ul {
+          padding: 0;
+        }
+
+        .home {
+          bottom: 1.5vh;
+          left: 1vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <h1><a href="/">BudBloom</a></h1>
+    </div>
+    <div class="home">
+      <a href="/"><i class="bx bx-home" style="font-size: 32px"></i></a>
+    </div>
+    <div class="container">
+      <h1>About Plant Disease Detection System</h1>
+
+      <h2>Overview</h2>
+      <p>
+        Our Plant Disease Detection System is an AI-powered tool designed to
+        help farmers and agricultural professionals detect plant diseases
+        quickly and accurately. By uploading an image of a plant leaf, users can
+        identify diseases affecting their crops and receive actionable solutions
+        to manage them.
+      </p>
+
+      <h2>Supported Crops</h2>
+      <p>
+        The model is trained to detect diseases in the following plants:
+        <strong
+          >Tomato, Grape, Orange, Soybean, Squash, Potato, Corn (Maize),
+          Strawberry, Peach, Apple, Blueberry, Cherry (including Sour), Bell
+          Pepper, Raspberry.</strong
+        >
+      </p>
+
+      <h2>Detected Diseases</h2>
+      <p>
+        The system can identify the following diseases across different plant
+        species:
+      </p>
+      <ul>
+        <li>
+          <strong>Tomato:</strong> Late Blight, Early Blight, Septoria Leaf
+          Spot, Yellow Leaf Curl Virus, Bacterial Spot, Target Spot, Leaf Mold,
+          Spider Mites (Two-Spotted), Tomato Mosaic Virus
+        </li>
+        <li>
+          <strong>Grape:</strong> Black Rot, Leaf Blight (Isariopsis Leaf Spot),
+          Esca (Black Measles), Healthy
+        </li>
+        <li>
+          <strong>Apple:</strong> Apple Scab, Black Rot, Cedar Apple Rust,
+          Healthy
+        </li>
+        <li><strong>Potato:</strong> Late Blight, Early Blight, Healthy</li>
+        <li>
+          <strong>Corn (Maize):</strong> Northern Leaf Blight, Cercospora Leaf
+          Spot (Gray Leaf Spot), Common Rust, Healthy
+        </li>
+        <li><strong>Strawberry:</strong> Leaf Scorch, Healthy</li>
+        <li><strong>Peach:</strong> Bacterial Spot, Healthy</li>
+        <li><strong>Orange:</strong> Haunglongbing (Citrus Greening)</li>
+        <li><strong>Squash:</strong> Powdery Mildew</li>
+        <li>
+          <strong>Cherry (including Sour):</strong> Powdery Mildew, Healthy
+        </li>
+        <li><strong>Bell Pepper:</strong> Bacterial Spot, Healthy</li>
+        <li><strong>Soybean:</strong> Healthy</li>
+        <li><strong>Blueberry:</strong> Healthy</li>
+        <li><strong>Raspberry:</strong> Healthy</li>
+      </ul>
+
+      <h2>Technology Used</h2>
+      <ul>
+        <li>
+          <strong>Model:</strong> MobileNetV2 – a lightweight and efficient deep
+          learning model optimized for real-time image classification.
+        </li>
+        <li>
+          <strong>Training Dataset:</strong> The model is trained on thousands
+          of labeled plant disease images to ensure high accuracy in
+          predictions.
+        </li>
+      </ul>
+
+      <div class="features">
+        <h2>Key Features</h2>
+        <ul>
+          <li>
+            <strong
+              ><i class="bx bxs-quote-single-left"></i> AI-Powered
+              Detection:</strong
+            >
+            Upload an image and instantly identify plant diseases.
+          </li>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Diagnosis Report:</strong> Get details about the disease
+            along with treatment suggestions.
+          </li>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Healthy vs Diseased Classification:</strong> Recognizes both
+            infected and healthy plant leaves.
+          </li>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Farmer Dashboard (if applicable):</strong> Users can track
+            disease occurrences over time.
+          </li>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Regional Disease Tracking (if implemented):</strong> Helps
+            identify common diseases in specific areas.
+          </li>
+        </ul>
+      </div>
+
+      <div class="why-use">
+        <h2>Why Use This System?</h2>
+        <ul>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Fast & Accurate:</strong> AI-based detection ensures quick
+            and precise results.
+          </li>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Reduces Crop Loss:</strong> Early disease detection helps
+            prevent the spread of infections.
+          </li>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Eco-Friendly:</strong> Helps optimize pesticide use by
+            targeting only affected plants.
+          </li>
+          <li>
+            <i class="bx bxs-quote-single-left"></i>
+            <strong>Farmer-Friendly:</strong> Easy-to-use interface designed for
+            farmers and agricultural experts.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

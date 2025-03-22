@@ -1,0 +1,1336 @@
+{
+  "Apple": {
+      "Apple scab": {
+          "affected plant": "Apple",
+          "cause": "Fungal infection caused by Venturia inaequalis.",
+          "symptoms": [
+              "Olive-green spots on leaves.",
+              "Dark, scabby lesions on fruits.",
+              "Premature leaf drop."
+          ],
+          "chemical control": [
+              {
+                  "name": "Mancozeb",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Remove and destroy infected leaves.",
+              "Ensure proper air circulation."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Black rot": {
+          "affected plant": "Apple",
+          "cause": "Fungal infection caused by Botryosphaeria obtusa.",
+          "symptoms": [
+              "Brown, circular spots on leaves.",
+              "Black, shriveled fruits.",
+              "Cankers on branches."
+          ],
+          "chemical control": [
+              {
+                  "name": "Copper-based Fungicide",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Prune and destroy infected branches.",
+              "Avoid overhead watering."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use mulch.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Cedar apple rust": {
+          "affected plant": "Apple",
+          "cause": "Fungal infection caused by Gymnosporangium juniperi-virginianae.",
+          "symptoms": [
+              "Yellow-orange spots on leaves.",
+              "Galls on cedar trees.",
+              "Premature leaf drop."
+          ],
+          "chemical control": [
+              {
+                  "name": "Myclobutanil",
+                  "dosage": "As per manufacturer's instructions",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Remove nearby cedar trees if possible.",
+              "Ensure proper air circulation."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "healthy": {
+          "affected plant": "Apple",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Blueberry": {
+      "healthy": {
+          "affected plant": "Blueberry",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Cherry (including sour)": {
+      "Powdery mildew": {
+          "affected plant": "Cherry (including Sour)",
+          "cause": "Fungal infection caused by Podosphaera clandestina.",
+          "symptoms": [
+              "White, powdery spots on leaves.",
+              "Leaf curling and defoliation.",
+              "Reduced fruit yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Sulfur-based Fungicide",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Ensure proper air circulation.",
+              "Avoid overhead watering."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "healthy": {
+          "affected plant": "Cherry (including Sour)",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Corn (maize)": {
+      "Cercospora leaf spot Gray leaf spot": {
+          "affected plant": "Corn (Maize)",
+          "cause": "Fungal infection caused by Cercospora zeae-maydis.",
+          "symptoms": [
+              "Small, rectangular, grayish-brown spots on leaves.",
+              "Spots may merge and cause extensive leaf blight.",
+              "Reduced grain yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Mancozeb",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Rotate crops with non-host plants.",
+              "Remove and destroy infected plant debris."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Common rust ": {
+          "affected plant": "Corn (Maize)",
+          "cause": "Fungal infection caused by Puccinia sorghi.",
+          "symptoms": [
+              "Small, reddish-brown pustules on leaves.",
+              "Pustules may merge and cause extensive leaf damage.",
+              "Reduced grain yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Triazole Fungicides (e.g., Tebuconazole)",
+                  "dosage": "As per manufacturer's instructions",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Plant resistant varieties.",
+              "Remove and destroy infected plant debris."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Northern Leaf Blight": {
+          "affected plant": "Corn (Maize)",
+          "cause": "Fungal infection caused by Exserohilum turcicum.",
+          "symptoms": [
+              "Long, elliptical, gray-green lesions on leaves.",
+              "Lesions may merge and cause extensive leaf blight.",
+              "Reduced grain yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Chlorothalonil",
+                  "dosage": "2-3 ml per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Rotate crops with non-host plants.",
+              "Remove and destroy infected plant debris."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "healthy": {
+          "affected plant": "Corn (Maize)",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Grape": {
+      "Black rot": {
+          "affected plant": "Grape",
+          "cause": "Fungal infection caused by Guignardia bidwellii.",
+          "symptoms": [
+              "Brown spots with black edges on leaves.",
+              "Shriveled and blackened fruits.",
+              "Cankers on stems."
+          ],
+          "chemical control": [
+              {
+                  "name": "Mancozeb",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Prune and destroy infected plant parts.",
+              "Ensure proper air circulation."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Esca (Black Measles)": {
+          "affected plant": "Grape",
+          "cause": "Fungal infection caused by Phaeomoniella chlamydospora.",
+          "symptoms": [
+              "Yellowing and browning of leaves.",
+              "Black streaks in the wood.",
+              "Reduced fruit yield and quality."
+          ],
+          "chemical control": [
+              {
+                  "name": "No effective chemical treatment available.",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Prune and destroy infected plant parts.",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Use disease-free planting material.",
+              "Avoid wounding the plant during pruning."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Destroy infected plants to prevent spread."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Leaf blight (Isariopsis Leaf Spot)": {
+          "affected plant": "Grape",
+          "cause": "Fungal infection caused by Isariopsis griseola.",
+          "symptoms": [
+              "Small, angular, brown spots on leaves.",
+              "Yellowing and defoliation.",
+              "Reduced fruit yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Chlorothalonil",
+                  "dosage": "2-3 ml per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Remove and destroy infected plant debris.",
+              "Avoid overhead watering."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use mulch.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "healthy": {
+          "affected plant": "Grape",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Orange": {
+      "Haunglongbing (Citrus greening)": {
+          "affected plant": "Orange",
+          "cause": "Bacterial infection caused by Candidatus Liberibacter spp.",
+          "symptoms": [
+              "Yellowing of leaves with blotchy mottling.",
+              "Misshapen and bitter fruits.",
+              "Stunted growth and reduced yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "No effective chemical treatment available.",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Remove and destroy infected plants.",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Control psyllid vectors using insecticides.",
+              "Use disease-free planting material."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and control psyllids.",
+              "severe": "Destroy infected plants to prevent spread."
+          },
+          "region specific advice": {
+              "tropical": "Monitor and control psyllid populations regularly.",
+              "temperate": "Use reflective mulches to deter psyllids."
+          }
+      }
+  },
+  "Peach": {
+      "Bacterial spot": {
+          "affected plant": "Peach",
+          "cause": "Bacterial infection caused by Xanthomonas arboricola.",
+          "symptoms": [
+              "Small, dark, water-soaked spots on leaves.",
+              "Spots may have yellow halos.",
+              "Lesions on fruits and stems."
+          ],
+          "chemical control": [
+              {
+                  "name": "Copper-based Bactericide",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Avoid overhead watering.",
+              "Use disease-free planting material."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical bactericides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Ensure proper air circulation and avoid overcrowding.",
+              "temperate": "Use drip irrigation to reduce leaf wetness."
+          }
+      },
+      "healthy": {
+          "affected plant": "Peach",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Pepper, bell": {
+      "Bacterial spot": {
+          "affected plant": "Bell Pepper",
+          "cause": "Bacterial infection caused by Xanthomonas spp.",
+          "symptoms": [
+              "Small, dark, water-soaked spots on leaves.",
+              "Spots may have yellow halos.",
+              "Lesions on fruits and stems."
+          ],
+          "chemical control": [
+              {
+                  "name": "Copper-based Bactericide",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Avoid overhead watering.",
+              "Use disease-free planting material."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical bactericides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Ensure proper air circulation and avoid overcrowding.",
+              "temperate": "Use drip irrigation to reduce leaf wetness."
+          }
+      },
+      "healthy": {
+          "affected plant": "Bell Pepper",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Potato": {
+      "Early blight": {
+          "affected plant": "Potato",
+          "cause": "Fungal infection caused by Alternaria solani.",
+          "symptoms": [
+              "Brown spots with concentric rings on leaves.",
+              "Yellowing and wilting of lower leaves.",
+              "Dark lesions on stems and tubers."
+          ],
+          "chemical control": [
+              {
+                  "name": "Mancozeb",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Remove and destroy infected plant debris.",
+              "Avoid overhead watering."
+          ],
+          "severity": {
+              "mild": "Prune infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Ensure proper air circulation and avoid overcrowding.",
+              "temperate": "Use mulch to reduce soil splash on leaves."
+          }
+      },
+      "Late blight": {
+          "affected plant": "Potato",
+          "cause": "Fungal infection caused by Phytophthora infestans.",
+          "symptoms": [
+              "Dark, water-soaked spots on leaves.",
+              "White, fuzzy growth on the underside of leaves.",
+              "Rapid wilting and browning of leaves and stems."
+          ],
+          "chemical control": [
+              {
+                  "name": "Chlorothalonil",
+                  "dosage": "2-3 ml per liter of water",
+                  "application": "Spray every 7-10 days during wet weather."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Crop rotation for 3 years.",
+              "Water plants at the base to avoid wetting leaves."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Destroy infected plants to prevent spread."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use mulch.",
+              "temperate": "Avoid overhead watering in greenhouses."
+          }
+      },
+      "healthy": {
+          "affected plant": "Potato",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Raspberry": {
+      "healthy": {
+          "affected plant": "Raspberry",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Soybean": {
+      "healthy": {
+          "affected plant": "Soybean",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Squash": {
+      "Powdery mildew": {
+          "affected plant": "Squash",
+          "cause": "Fungal infection caused by Podosphaera xanthii.",
+          "symptoms": [
+              "White, powdery spots on leaves.",
+              "Leaf curling and defoliation.",
+              "Reduced fruit yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Sulfur-based Fungicide",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Ensure proper air circulation.",
+              "Avoid overhead watering."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      }
+  },
+  "Strawberry": {
+      "Leaf scorch": {
+          "affected plant": "Strawberry",
+          "cause": "Fungal infection caused by Diplocarpon earlianum.",
+          "symptoms": [
+              "Purple or reddish-brown spots on leaves.",
+              "Leaf curling and defoliation.",
+              "Reduced fruit yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Chlorothalonil",
+                  "dosage": "2-3 ml per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Remove and destroy infected plant debris.",
+              "Ensure proper air circulation."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "healthy": {
+          "affected plant": "Strawberry",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  },
+  "Tomato": {
+      "Bacterial spot": {
+          "affected plant": "Tomato",
+          "cause": "Bacterial infection caused by Xanthomonas spp.",
+          "symptoms": [
+              "Small, dark, water-soaked spots on leaves.",
+              "Spots may have yellow halos.",
+              "Lesions on stems and fruits."
+          ],
+          "chemical control": [
+              {
+                  "name": "Copper-based Bactericide",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Avoid overhead watering.",
+              "Use disease-free seeds and transplants."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical bactericides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Ensure proper air circulation and avoid overcrowding.",
+              "temperate": "Use drip irrigation to reduce leaf wetness."
+          }
+      },
+      "Early blight": {
+          "affected plant": "Tomato",
+          "cause": "Fungal infection caused by Alternaria solani.",
+          "symptoms": [
+              "Brown spots with concentric rings on leaves.",
+              "Yellowing and wilting of lower leaves.",
+              "Dark lesions on stems and fruits."
+          ],
+          "chemical control": [
+              {
+                  "name": "Mancozeb",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Remove and destroy infected plant debris.",
+              "Avoid overhead watering."
+          ],
+          "severity": {
+              "mild": "Prune infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Ensure proper air circulation and avoid overcrowding.",
+              "temperate": "Use mulch to reduce soil splash on leaves."
+          }
+      },
+      "Late blight": {
+          "affected plant": "Tomato",
+          "cause": "Fungal infection caused by Phytophthora infestans.",
+          "symptoms": [
+              "Dark, water-soaked spots on leaves.",
+              "White, fuzzy growth on the underside of leaves.",
+              "Rapid wilting and browning of leaves and stems."
+          ],
+          "chemical control": [
+              {
+                  "name": "Chlorothalonil",
+                  "dosage": "2-3 ml per liter of water",
+                  "application": "Spray every 7-10 days during wet weather."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Crop rotation for 3 years.",
+              "Water plants at the base to avoid wetting leaves."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Destroy infected plants to prevent spread."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use mulch.",
+              "temperate": "Avoid overhead watering in greenhouses."
+          }
+      },
+      "Leaf Mold": {
+          "affected plant": "Tomato",
+          "cause": "Fungal infection caused by Passalora fulva.",
+          "symptoms": [
+              "Yellow spots on upper leaf surfaces.",
+              "Grayish-purple mold on the underside of leaves.",
+              "Leaf curling and defoliation."
+          ],
+          "chemical control": [
+              {
+                  "name": "Chlorothalonil",
+                  "dosage": "2-3 ml per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Baking Soda Solution",
+                  "dosage": "1 teaspoon baking soda + 1 liter of water",
+                  "application": "Spray on leaves every 7 days."
+              }
+          ],
+          "prevention": [
+              "Ensure proper air circulation in greenhouses.",
+              "Avoid overhead watering."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Use fans to improve air circulation in greenhouses."
+          }
+      },
+      "Septoria leaf spot": {
+          "affected plant": "Tomato",
+          "cause": "Fungal infection caused by Septoria lycopersici.",
+          "symptoms": [
+              "Small, circular spots with gray centers and dark edges.",
+              "Yellowing and dropping of leaves.",
+              "Reduced fruit production."
+          ],
+          "chemical control": [
+              {
+                  "name": "Copper-based Fungicide",
+                  "dosage": "2-3 g per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Rotate crops with non-solanaceous plants.",
+              "Avoid working with wet plants."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use drip irrigation.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Spider mites Two-spotted spider mite": {
+          "affected plant": "Tomato",
+          "cause": "Infestation by two-spotted spider mites (Tetranychus urticae).",
+          "symptoms": [
+              "Fine webbing on leaves.",
+              "Yellow or bronze stippling on leaves.",
+              "Leaf drop and reduced plant vigor."
+          ],
+          "chemical control": [
+              {
+                  "name": "Miticide (e.g., Abamectin)",
+                  "dosage": "As per manufacturer's instructions",
+                  "application": "Spray to control mites."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Maintain proper humidity levels.",
+              "Remove weeds and debris that harbor mites."
+          ],
+          "severity": {
+              "mild": "Spray with water to dislodge mites and apply organic solutions.",
+              "severe": "Apply chemical miticides and destroy heavily infested plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase humidity and use predatory mites.",
+              "temperate": "Avoid over-fertilization, which promotes mite outbreaks."
+          }
+      },
+      "Target Spot": {
+          "affected plant": "Tomato",
+          "cause": "Fungal infection caused by Corynespora cassiicola.",
+          "symptoms": [
+              "Circular, target-like spots on leaves.",
+              "Yellowing and defoliation.",
+              "Lesions on stems and fruits."
+          ],
+          "chemical control": [
+              {
+                  "name": "Chlorothalonil",
+                  "dosage": "2-3 ml per liter of water",
+                  "application": "Spray every 7-10 days."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days."
+              }
+          ],
+          "prevention": [
+              "Rotate crops with non-host plants.",
+              "Avoid working with wet plants."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and apply organic solutions.",
+              "severe": "Apply chemical fungicides and destroy heavily infected plants."
+          },
+          "region specific advice": {
+              "tropical": "Increase plant spacing and use mulch.",
+              "temperate": "Avoid overhead watering and ensure proper ventilation."
+          }
+      },
+      "Tomato Yellow Leaf Curl Virus": {
+          "affected plant": "Tomato",
+          "cause": "Viral infection transmitted by whiteflies.",
+          "symptoms": [
+              "Yellowing and curling of leaves.",
+              "Stunted growth.",
+              "Reduced fruit size and yield."
+          ],
+          "chemical control": [
+              {
+                  "name": "Insecticides (e.g., Imidacloprid)",
+                  "dosage": "As per manufacturer's instructions",
+                  "application": "Spray to control whiteflies."
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Neem Oil Spray",
+                  "dosage": "5 ml per liter of water",
+                  "application": "Spray every 7 days to deter whiteflies."
+              }
+          ],
+          "prevention": [
+              "Use insect-proof nets to protect plants.",
+              "Remove and destroy infected plants."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and control whiteflies.",
+              "severe": "Destroy infected plants to prevent spread."
+          },
+          "region specific advice": {
+              "tropical": "Monitor whitefly populations regularly.",
+              "temperate": "Use reflective mulches to deter whiteflies."
+          }
+      },
+      "Tomato mosaic virus": {
+          "affected plant": "Tomato",
+          "cause": "Viral infection transmitted by seeds, tools, or insects.",
+          "symptoms": [
+              "Mottled light and dark green patches on leaves.",
+              "Leaf distortion and stunted growth.",
+              "Reduced fruit yield and quality."
+          ],
+          "chemical control": [
+              {
+                  "name": "No chemical treatment available.",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "Remove and destroy infected plants.",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Use virus-free seeds and transplants.",
+              "Disinfect tools and equipment regularly."
+          ],
+          "severity": {
+              "mild": "Remove infected leaves and control insect vectors.",
+              "severe": "Destroy infected plants to prevent spread."
+          },
+          "region specific advice": {
+              "tropical": "Monitor and control insect vectors like aphids.",
+              "temperate": "Avoid working with wet plants to prevent mechanical transmission."
+          }
+      },
+      "healthy": {
+          "affected plant": "Tomato",
+          "cause": "N/A",
+          "symptoms": [
+              "No visible symptoms of disease."
+          ],
+          "chemical control": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "organic solutions": [
+              {
+                  "name": "N/A",
+                  "dosage": "N/A",
+                  "application": "N/A"
+              }
+          ],
+          "prevention": [
+              "Maintain proper plant care practices.",
+              "Monitor for early signs of disease."
+          ],
+          "severity": {
+              "mild": "N/A",
+              "severe": "N/A"
+          },
+          "region specific advice": {
+              "tropical": "N/A",
+              "temperate": "N/A"
+          }
+      }
+  }
+}
