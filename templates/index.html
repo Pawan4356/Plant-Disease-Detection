@@ -117,8 +117,8 @@
       .show {
         text-decoration: none;
         font-size: medium;
-        background-color: gray; /* Gray background */
-        color: white; /* White text */
+        background-color: gray;
+        color: white;
         font-weight: 700;
         padding: 10px 40px;
         border-radius: 7px;
@@ -127,7 +127,7 @@
       }
 
       .show:hover {
-        background-color: darkgray; /* Slightly darker gray on hover */
+        background-color: darkgray;
       }
 
       @media only screen and (max-width: 800px) {
@@ -258,10 +258,10 @@
       .addEventListener("change", function () {
         let uploadBtn = document.getElementById("uploadBtn");
         if (this.files.length > 0) {
-          uploadBtn.style.backgroundColor = "red"; // Change background color
-          uploadBtn.style.color = "white"; // Change text color
+          uploadBtn.style.backgroundColor = "red";
+          uploadBtn.style.color = "white";
         } else {
-          uploadBtn.style.backgroundColor = ""; // Reset to default
+          uploadBtn.style.backgroundColor = "";
           uploadBtn.style.color = "";
         }
       });
@@ -275,13 +275,11 @@
         return;
       }
 
-      // Validate file type
       if (!image.type.startsWith("image/")) {
         alert("Please upload a valid image file (JPEG, PNG, etc.).");
         return;
       }
 
-      // Validate file size (e.g., 5MB limit)
       if (image.size > 5 * 1024 * 1024) {
         alert("File size must be less than 5MB.");
         return;
@@ -321,18 +319,16 @@
 
     function ShowSolution() {
       let resultText = document.getElementById("result").innerText;
-      let diseaseInfo = resultText.split(": ")[1]; // Extract predicted disease name
+      let diseaseInfo = resultText.split(": ")[1];
 
       if (!diseaseInfo) {
         alert("Please predict a disease first!");
         return;
       }
 
-      // Split into plant and disease (assuming format is "Plant Disease")
       let [plant, ...diseaseParts] = diseaseInfo.split(" ");
       let disease = diseaseParts.join(" ");
 
-      // Redirect to solution.html with query parameters
       window.location.href = `/solution?plant=${encodeURIComponent(
         plant
       )}&disease=${encodeURIComponent(disease)}`;
