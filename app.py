@@ -9,7 +9,6 @@ app = Flask(__name__)
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
-# Load the model
 model_path = "mobilenetv2_finetuned.pth"
 device = torch.device("cpu")
 model = models.mobilenet_v2(pretrained=False)
@@ -23,14 +22,12 @@ print("Model loaded successfully.")
 model.to(device)
 model.eval()
 
-# Define image transformations
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # ImageNet normalization
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
-# Class labels
 class_labels = [
     "Apple Apple Scab", "Apple Black Rot", "Apple Cedar Apple Rust", "Apple Healthy",
     "Blueberry Healthy", "Cherry (Including Sour) Powdery Mildew", "Cherry (Including Sour) Healthy",
@@ -47,14 +44,12 @@ class_labels = [
     "Tomato Healthy"
 ]
 
-# Predict function
 def predict_image(image_bytes):
     """Predict the plant disease for a given image."""
     try:
-        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")  # Ensure RGB mode
-        image = transform(image).unsqueeze(0)  # Add batch dimension
+        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+        image = transform(image).unsqueeze(0)
 
-        # Perform inference
         with torch.no_grad():
             output = model(image.to(device))
             predicted_class = torch.argmax(output, dim=1).item()
@@ -76,7 +71,6 @@ def about():
 def solution():
     return render_template('solution.html')
 
-# Flask route for prediction
 @app.route("/predict", methods=["POST"])
 def predict():
     if "image" not in request.files:
@@ -96,4 +90,4 @@ def predict():
         return jsonify({"error": "Prediction failed"}), 500
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port= process.env.PORT || 5000, debug=True)
+    app.run(host="0.0.0.0", port= 10000 || process.env.PORT || 5000, debug=True)
