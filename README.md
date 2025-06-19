@@ -2,17 +2,14 @@
 
 This project helps farmers detect plant diseases using deep learning. Users can upload plant images, and the system classifies diseases, providing possible solutions. The platform also tracks disease occurrences by region for better agricultural insights.  
 
-## 🏠 Home Page  
-<img src="assets/Home%20Page.png" width="600">
+| 🏠 Home Page | 🔹 Uploading Demo |
+|--------------|-------------------|
+| ![](assets/Home%20Page.png) | ![](assets/Uploading%20Demo.png) |
 
-## 🔹 Uploading Demo  
-<img src="assets/Uploading%20Demo.png" width="600">
+| ℹ️ About Page | 🔍 Prediction Page |
+|----------------|--------------------|
+| ![](assets/About.png) | ![](assets/Prediction.png) |
 
-### ℹ️ About Page  
-<img src="assets/About.png" width="600">
-
-### 🔍 Prediction Page  
-<img src="assets/Prediction.png" width="600">
 
 ## 🔹 Features  
 - 📷 **Image Upload** – Users can upload plant images for disease detection.  
